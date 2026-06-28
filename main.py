@@ -21,9 +21,9 @@ logger = logging.getLogger(__name__)
 
 # ========== TELEGRAM API FOR REAL REFERRAL EXECUTION ==========
 # Get from https://my.telegram.org/apps
-TELEGRAM_API_ID = 123456  # REPLACE THIS
-TELEGRAM_API_HASH = "YOUR_API_HASH"  # REPLACE THIS
-TELEGRAM_PHONE = "+1234567890"  # REPLACE WITH YOUR PHONE
+TELEGRAM_API_ID = 34251111  # REPLACE THIS
+TELEGRAM_API_HASH = "1e9a6652b42a7bc5b78cfdc9fd7f9353"  # REPLACE THIS
+TELEGRAM_PHONE = "+923008192960"  # REPLACE WITH YOUR PHONE
 
 telethon_client = TelegramClient('referral_session', TELEGRAM_API_ID, TELEGRAM_API_HASH)
 captcha_solver = None
