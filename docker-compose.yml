@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  referral-bot:
+    build: .
+    container_name: telegram-referral-bot
+    restart: unless-stopped
+    volumes:
+      - ./referral_bot.db:/app/referral_bot.db
+      - ./sessions:/app/sessions
+    environment:
+      - TZ=UTC
+      - PYTHONUNBUFFERED=1
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
