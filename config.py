@@ -2,8 +2,8 @@ import sqlite3
 import os
 
 # Bot Configuration
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # Replace with your bot token from @BotFather
-ADMIN_IDS = [123456789]  # Replace with your Telegram user ID
+BOT_TOKEN = "8651241172:AAG6dwblqW-_mmWVq13RkkjQXEmEW2DSE3M"  # Replace with your bot token from @BotFather
+ADMIN_IDS = [8278238550]  # Replace with your Telegram user ID
 
 # Database path
 DB_PATH = "referral_bot.db"
